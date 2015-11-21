@@ -1,0 +1,30 @@
+
+.com_after_hide::after {
+    display: none !important;
+}
+.com_before_hide::before {
+    display: none !important;
+}
+.com_after_show::after {
+    display: block !important;
+}
+.com_before_show::before {
+    display: block !important;
+}
+.com_loading_black, .com_loading_white {
+    background: #000 url("/libs/img/img_loading_black.gif") no-repeat scroll 50% 50%;
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.com_loading_white {
+    background-color: #fff;
+    background-image: url("/libs/img/img_loading_white.gif");
+}
+a[href*="tongji.baidu.com"] {
+    display: none;
+}
